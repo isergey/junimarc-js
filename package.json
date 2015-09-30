@@ -1,0 +1,33 @@
+{
+  "name": "junimarc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/junimarc.js",
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marc",
+    "usmarc",
+    "unimarc",
+    "jumimarc",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isergey/junimarc-js.git"
+  },
+  "author": "Sergey Dostovalov",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^5.3.2",
+    "eslint": "^1.5.1",
+    "eslint-loader": "^1.0.0",
+    "install": "^0.1.8",
+    "npm": "^3.3.4",
+    "webpack": "^1.12.2"
+  }
+}
